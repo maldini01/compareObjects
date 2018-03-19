@@ -1,6 +1,6 @@
 {
   "name": "compare-objects-library",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "get the differences of an object",
   "main": "src/index.js",
   "scripts": {

@@ -5,7 +5,7 @@ module.exports = {
     var objDifferent = {};
     var index = 0;
     if (obj1 === obj2) {
-      console.log('iguales');
+      return {};
     } else {
       for (var propertyObject in firstObject) {
         if (Array.isArray(firstObject[propertyObject])){
@@ -21,7 +21,8 @@ module.exports = {
           }
         }
       }
-      return console.log('diferencias entre los objetos', objDifferent);
+      // console.log('diferencias entre los objetos', objDifferent);
+      return objDifferent
     }
     function array(firstObject, secondObject, nameProperty) {
       // console.log('arrays', firstObject, secondObject);
