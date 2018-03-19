@@ -1,0 +1,23 @@
+{
+  "name": "compare-objects-library",
+  "version": "1.0.0",
+  "description": "get the differences of an object",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maldini01/compareObjects.git"
+  },
+  "keywords": [
+    "objects",
+    "compare"
+  ],
+  "author": "Jorge Lara Briones <jlarabriones@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maldini01/compareObjects/issues"
+  },
+  "homepage": "https://github.com/maldini01/compareObjects#readme"
+}
